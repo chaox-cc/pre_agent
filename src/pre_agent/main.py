@@ -1,7 +1,7 @@
 from dotenv import load_dotenv
 from pre_agent.tools import search, ToolExecutor
 from pre_agent.ReActAgent import ReActAgent
-from pre_agent.HelloAgentsLLM import HelloAgentsLLM
+from pre_agent.llm_client import HelloAgentsLLM
 
 load_dotenv()
 

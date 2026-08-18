@@ -1,4 +1,4 @@
-from pre_agent.HelloAgentsLLM import HelloAgentsLLM
+from pre_agent.llm_client import HelloAgentsLLM
 from pre_agent.tools import ToolExecutor
 import re
 
