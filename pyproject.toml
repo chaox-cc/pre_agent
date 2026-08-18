@@ -14,7 +14,7 @@ dependencies = [
 ]
 
 [project.scripts]
-pre-agent = "pre_agent:main"
+pre-agent = "pre_agent.main:main"
 
 [build-system]
 requires = ["uv_build>=0.12.3,<0.13.0"]
