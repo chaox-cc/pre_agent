@@ -13,7 +13,6 @@ except Exception as e:
     print(f"警告：加载 .env 文件时出错: {e}")
 
 
-
 PLANNER_PROMPT_TEMPLATE = """
     你是一个顶级的AI规划专家。你的任务是将用户提出的复杂问题分解成多个简单步骤最终形成一个行动计划。
     请确保计划中的每个步骤都是一个独立的、可执行的子任务，并且严格按照逻辑顺序排列。
@@ -26,7 +25,6 @@ PLANNER_PROMPT_TEMPLATE = """
     ["步骤1", "步骤2", "步骤3", ...]
     ```
 """
-
 
 class Planner:
     def __init__(self, llm_client):
@@ -82,7 +80,6 @@ EXECUTOR_PROMPT_TEMPLATE = """
 
     请仅输出针对“当前步骤”的回答:
 """
-
 
 class Executor:
     def __init__(self, llm_client):
